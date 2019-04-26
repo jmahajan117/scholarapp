@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.jmahajan.driving">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:hardwareAccelerated="false">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Intro" />
+        <activity android:name=".Stage1" />
+        <activity android:name=".Stage2" />
+        <activity android:name=".Stage3" />
+        <activity android:name=".Stage4" />
+        <activity android:name=".Stage5" />
+        <activity android:name=".Stage6A" />
+        <activity android:name=".Stage6B" />
+        <activity android:name=".Stage6C" />
+        <activity android:name=".Stage6D" />
+        <activity android:name=".Stage7" />
+        <activity android:name=".Stage8" />
+        <activity android:name=".Stage9" />
+        <activity android:name=".Stage10" />
+        <activity android:name=".Stage11" />
+        <activity android:name=".Stage12" />
+        <activity android:name=".Stage13A" />
+        <activity android:name=".Stage13B" />
+        <activity android:name=".Stage13C" />
+        <activity android:name=".Stage14" />
+        <activity android:name=".Stage15" />
+        <activity android:name=".Conclusion"></activity>
+    </application>
+
+</manifest>
